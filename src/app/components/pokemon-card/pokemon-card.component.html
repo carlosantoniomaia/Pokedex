@@ -1,11 +1,10 @@
 <mat-card class="example-card" appearance="outlined">
   <mat-card-header>
     <mat-card-title-group>
-      <mat-card-title>Shiba Inu</mat-card-title>
-      <mat-card-subtitle>Large</mat-card-subtitle>
-      <img mat-card-lg-image src="https://material.angular.dev/assets/img/examples/shiba2.jpg" >
+      <img src="{{ requestImgPokemon() }}" />
     </mat-card-title-group>
   </mat-card-header>
   <mat-card-content>
+    <b>{{ pokemon.name }}</b>
   </mat-card-content>
 </mat-card>

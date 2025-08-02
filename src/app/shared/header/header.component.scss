@@ -1,17 +1,19 @@
-:host{
-    
-   .container{
-        height: 100%;
-        width: 100%;
-        padding: 0;
-        margin: 0;
-        background-color: red;
+:host {
+  .container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: red;
 
-        h1{
-            height: 100%;
-            width: 100%;
-            margin: 0;
-            padding: 0;
-        }
+    h1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      color: white;
     }
+  }
 }
